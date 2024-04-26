@@ -53,7 +53,7 @@ if(isset($_POST["send"])){
             $admin_mail->Host = 'smtp.gmail.com';
             $admin_mail->SMTPAuth = true;
             $admin_mail->Username = 'inaniyakapil2000@gmail.com';
-            $admin_mail->Password = 'bpvpurfrnavrould';
+            $admin_mail->Password = 'enter_your Passcode'; //Here need to enter your gmail passcode
             $admin_mail->SMTPSecure = 'ssl';
             $admin_mail->Port = 465;
             $admin_mail->setFrom('inaniyakapil2000@gmail.com');
